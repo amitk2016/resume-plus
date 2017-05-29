@@ -1,0 +1,62 @@
+.showcase{
+	background:url(../img/resumeplus.jpg) no-repeat;
+	background-size:cover;
+	height:400px;
+	padding:40px 0;
+
+	div{
+		border:2px solid $main-color;
+		height:320px;
+		padding:40px 30px;
+
+		p{
+		color:#fff;
+	  }
+	}
+}
+
+
+.vision{
+	background-color:$main-color;
+	height:300px;
+	color:#fff;
+	padding:30px 0;
+	h1{
+		margin-bottom:30px;
+	}
+	p{
+		font-size: 18px;
+		font-weight: 300;
+	}
+}
+
+
+
+.testimonials{
+	height:500px;
+	background-color:#f6f6f6;
+	color:#444;
+	position:relative;
+	blockquote{
+		padding:40px 80px;
+		font-weight:300;
+	}
+
+	.arrow{
+			width:50px;
+			position: absolute;
+		}
+	.left-arrow{
+			top:50%;
+		}
+	.right-arrow{
+			right:20px;
+			top:50%;
+		}
+}
+
+
+.footer{
+	height:200px;
+	background-color:#444;
+}
