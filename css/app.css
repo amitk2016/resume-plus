@@ -12956,7 +12956,58 @@ body {
 /* line 1, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .nav-contact {
   padding: 0.937rem 3.125rem;
-  background-color: red;
+  padding-bottom: 0px;
+  font-size: 1.8rem;
+  color: #2098D1;
+}
+
+/* line 8, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.nav-contact p {
+  margin-bottom: 0px;
+}
+
+/* line 16, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.navbar ul {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  padding: 0px 15px;
+  margin-right: 4.8rem;
+}
+
+/* line 23, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.navbar ul li {
+  list-style: none;
+}
+
+/* line 26, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.navbar ul li a {
+  color: #2098D1;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* line 31, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.navbar ul li a .active {
+  text-decoration: underline;
+}
+
+/* line 42, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.navbar__logo h1 {
+  margin: 0px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* line 47, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.navbar__logo h1 span {
+  font-weight: 300;
+}
+
+/* line 53, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.navbar__subheading {
+  width: 210px;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=../css/app.map */

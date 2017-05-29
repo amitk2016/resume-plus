@@ -1,0 +1,22 @@
+{
+  "name": "resume-plus",
+  "homepage": "https://github.com/amitk2016/resume-plus",
+  "authors": [
+    "Amit <amit.k03377@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0",
+    "grunt-autoprefixer": "^3.0.4"
+  }
+}

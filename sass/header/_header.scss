@@ -1,4 +1,61 @@
 .nav-contact{
 	padding:0.937rem 3.125rem;
-	background-color:red;
+	padding-bottom:0px;
+	font-size:1.8rem;
+	color:$main-color;
+	// background-color:red;
+
+	p{
+		margin-bottom: 0px;
+	}
+}
+
+.navbar{
+	// background-color:yellow;
+
+	ul{
+		display:flex;
+		width:400px;
+		justify-content: space-between;
+		padding:0px 15px;
+		margin-right: 4.8rem;
+		// background-color:blue;
+		li{
+
+			list-style: none;
+			a{
+				color: $main-color;
+				font-weight:700;
+				font-size: 1.5rem;
+
+				.active{
+					text-decoration:underline;
+				}
+			}
+		}
+	}
+
+	&__logo{
+		// background-color:green;
+
+
+		h1{
+			margin: 0px;
+			font-size: 35px;
+			font-weight: 700;
+
+			span{
+				font-weight: 300;
+			}
+		}
+	}
+
+	&__subheading{
+		width:210px;
+		margin-bottom: 0;
+	}
+
+	&__menu{
+		// background-color:pink;
+	}
 }
