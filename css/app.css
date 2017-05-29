@@ -12953,4 +12953,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* line 1, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.nav-contact {
+  padding: 0.937rem 3.125rem;
+  background-color: red;
+}
+
 /*# sourceMappingURL=../css/app.map */
