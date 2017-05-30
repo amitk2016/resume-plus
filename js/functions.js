@@ -4,4 +4,7 @@ $(document).ready(function(){
 		$(".navbar__menu").slideToggle();
 	});
 
+
+	 $('.your-class').slick();
+
 });
