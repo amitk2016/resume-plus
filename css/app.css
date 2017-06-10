@@ -13044,6 +13044,16 @@ body {
   }
 }
 
+/* line 1, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
+.footer {
+  color: #fff;
+}
+
+/* line 8, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
+.social-links a img {
+  width: 30px;
+}
+
 /* line 1, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .showcase {
   background: url(../img/resumeplus.jpg) no-repeat;
@@ -13118,6 +13128,40 @@ body {
 .footer {
   height: 200px;
   background-color: #444;
+}
+
+/* line 69, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+.slider {
+  width: 800px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* line 75, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+.slider p {
+  width: 800px;
+  height: 300px;
+  float: left;
+  display: none;
+}
+
+/* line 84, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+.arrow-box {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* line 88, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+.arrow-box .l-arrow {
+  width: 50px;
+  float: left;
+}
+
+/* line 92, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+.arrow-box .r-arrow {
+  width: 50px;
+  float: right;
 }
 
 /*# sourceMappingURL=../css/app.map */
