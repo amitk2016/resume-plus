@@ -4676,30 +4676,30 @@ fieldset[disabled] .btn-info.focus {
 /* line 83, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-warning {
   color: #fff;
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #e67e22;
+  border-color: #d67118;
 }
 
 /* line 11, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:focus, .btn-warning.focus {
   color: #fff;
-  background-color: #ec971f;
-  border-color: #985f0d;
+  background-color: #bf6516;
+  border-color: #64350b;
 }
 
 /* line 17, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:hover {
   color: #fff;
-  background-color: #ec971f;
-  border-color: #d58512;
+  background-color: #bf6516;
+  border-color: #9f5412;
 }
 
 /* line 22, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:active, .btn-warning.active,
 .open > .btn-warning.dropdown-toggle {
   color: #fff;
-  background-color: #ec971f;
-  border-color: #d58512;
+  background-color: #bf6516;
+  border-color: #9f5412;
 }
 
 /* line 29, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
@@ -4708,8 +4708,8 @@ fieldset[disabled] .btn-info.focus {
 .open > .btn-warning.dropdown-toggle:focus,
 .open > .btn-warning.dropdown-toggle.focus {
   color: #fff;
-  background-color: #d58512;
-  border-color: #985f0d;
+  background-color: #9f5412;
+  border-color: #64350b;
 }
 
 /* line 37, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
@@ -4723,13 +4723,13 @@ fieldset[disabled] .btn-info.focus {
 fieldset[disabled] .btn-warning:hover,
 fieldset[disabled] .btn-warning:focus,
 fieldset[disabled] .btn-warning.focus {
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #e67e22;
+  border-color: #d67118;
 }
 
 /* line 53, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning .badge {
-  color: #f0ad4e;
+  color: #e67e22;
   background-color: #fff;
 }
 
@@ -6726,12 +6726,12 @@ a.label:hover, a.label:focus {
 
 /* line 60, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss */
 .label-warning {
-  background-color: #f0ad4e;
+  background-color: #e67e22;
 }
 
 /* line 7, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-warning[href]:hover, .label-warning[href]:focus {
-  background-color: #ec971f;
+  background-color: #bf6516;
 }
 
 /* line 64, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss */
@@ -7105,7 +7105,7 @@ a.thumbnail.active {
 
 /* line 81, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-warning {
-  background-color: #f0ad4e;
+  background-color: #e67e22;
 }
 
 /* line 7, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
@@ -13044,6 +13044,19 @@ body {
   }
 }
 
+/* line 86, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.back-to-top {
+  width: 50px;
+  position: fixed;
+  bottom: 2%;
+  right: 5%;
+}
+
+/* line 91, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.back-to-top img {
+  width: 50px;
+}
+
 /* line 1, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
 .footer {
   color: #fff;
@@ -13099,6 +13112,34 @@ body {
   font-weight: 300;
   width: 650px;
   margin: 0 auto;
+}
+
+/* line 1, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
+.services {
+  background-color: #323232;
+  color: #fff;
+  height: 550px;
+}
+
+/* line 6, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
+.services__boxOne {
+  margin-bottom: 2.2em;
+}
+
+/* line 9, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
+.services__boxTwo {
+  margin-bottom: 30px;
+}
+
+/* line 13, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
+.services__heading {
+  margin-bottom: 2.2em;
+}
+
+/* line 17, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
+.services__subheading {
+  font-size: 22px;
+  margin-bottom: 25px;
 }
 
 /* line 1, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
