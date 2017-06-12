@@ -1,0 +1,20 @@
+.about {
+	
+	background-color:#F9F9F7;
+	color:#66625B;
+	padding:50px 0;
+
+	&__box{
+		width:650px;
+		margin:0 auto;
+	}
+	&__heading{
+		margin-bottom:30px;
+		margin-top: 0px;
+	}
+	&__text{
+		font-size: 18px;
+		font-weight: 300;
+		margin:0 auto;
+	}
+}

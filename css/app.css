@@ -13054,6 +13054,53 @@ body {
   width: 30px;
 }
 
+/* line 1, /Users/amit/Sites/resume-plus/sass/module/_aboutUs.scss */
+.about {
+  background-color: #F9F9F7;
+  color: #66625B;
+  padding: 50px 0;
+}
+
+/* line 7, /Users/amit/Sites/resume-plus/sass/module/_aboutUs.scss */
+.about__box {
+  width: 650px;
+  margin: 0 auto;
+}
+
+/* line 11, /Users/amit/Sites/resume-plus/sass/module/_aboutUs.scss */
+.about__heading {
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+/* line 15, /Users/amit/Sites/resume-plus/sass/module/_aboutUs.scss */
+.about__text {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+/* line 1, /Users/amit/Sites/resume-plus/sass/module/_vision.scss */
+.vision {
+  background-color: #2098D1;
+  height: 300px;
+  color: #fff;
+  padding: 30px 0;
+}
+
+/* line 6, /Users/amit/Sites/resume-plus/sass/module/_vision.scss */
+.vision h1 {
+  margin-bottom: 30px;
+}
+
+/* line 9, /Users/amit/Sites/resume-plus/sass/module/_vision.scss */
+.vision p {
+  font-size: 18px;
+  font-weight: 300;
+  width: 650px;
+  margin: 0 auto;
+}
+
 /* line 1, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .showcase {
   background: url(../img/resumeplus.jpg) no-repeat;
@@ -13074,26 +13121,7 @@ body {
   color: #fff;
 }
 
-/* line 19, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.vision {
-  background-color: #2098D1;
-  height: 300px;
-  color: #fff;
-  padding: 30px 0;
-}
-
-/* line 24, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.vision h1 {
-  margin-bottom: 30px;
-}
-
-/* line 27, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.vision p {
-  font-size: 18px;
-  font-weight: 300;
-}
-
-/* line 35, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+/* line 21, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .testimonials {
   height: 500px;
   background-color: #f6f6f6;
@@ -13101,36 +13129,36 @@ body {
   position: relative;
 }
 
-/* line 40, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+/* line 26, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .testimonials blockquote {
   padding: 40px 80px;
   font-weight: 300;
 }
 
-/* line 45, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+/* line 31, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .testimonials .arrow {
   width: 50px;
   position: absolute;
 }
 
-/* line 49, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+/* line 35, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .testimonials .left-arrow {
   top: 50%;
 }
 
-/* line 52, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+/* line 38, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .testimonials .right-arrow {
   right: 20px;
   top: 50%;
 }
 
-/* line 59, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+/* line 45, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .footer {
   height: 200px;
   background-color: #444;
 }
 
-/* line 69, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+/* line 55, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .slider {
   width: 800px;
   height: 300px;
@@ -13138,7 +13166,7 @@ body {
   margin: 0 auto;
 }
 
-/* line 75, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+/* line 61, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .slider p {
   width: 800px;
   height: 300px;
@@ -13146,19 +13174,19 @@ body {
   display: none;
 }
 
-/* line 84, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+/* line 70, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .arrow-box {
   width: 300px;
   margin: 0 auto;
 }
 
-/* line 88, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+/* line 74, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .arrow-box .l-arrow {
   width: 50px;
   float: left;
 }
 
-/* line 92, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
+/* line 78, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .arrow-box .r-arrow {
   width: 50px;
   float: right;
