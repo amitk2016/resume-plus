@@ -1,0 +1,39 @@
+.testimonial{
+	// background-color:red;
+	padding:45px 0;
+	position:relative;
+	height:500px;
+	overflow:hidden;
+
+	// &__box{
+	// 	width:550px;
+	// 	margin:0 auto;
+	// }
+	&__arrows{
+		width:50px;
+	}
+	// &__left-arrow{
+	// 	background-color:yellow;
+	// 	top:300px;
+	// }
+	&__left-box{
+		// background-color:green;
+		height:300px;
+		display: flex;
+		justify-content:center;
+		align-items: center;
+	}
+	// &__right-arrow{
+	// 	// background-color:yellow;
+	// 	top:50%;
+	// }
+	&__heading{
+		margin-bottom:30px;
+	}
+	&__text{
+		font-size:18px;
+		height:300px;
+		font-weight:300;
+		display: none;
+	}
+}

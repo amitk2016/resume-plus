@@ -13118,7 +13118,6 @@ body {
 .services {
   background-color: #323232;
   color: #fff;
-  height: 550px;
 }
 
 /* line 6, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
@@ -13142,6 +13141,40 @@ body {
   margin-bottom: 25px;
 }
 
+/* line 1, /Users/amit/Sites/resume-plus/sass/module/_testimonial.scss */
+.testimonial {
+  padding: 45px 0;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* line 12, /Users/amit/Sites/resume-plus/sass/module/_testimonial.scss */
+.testimonial__arrows {
+  width: 50px;
+}
+
+/* line 19, /Users/amit/Sites/resume-plus/sass/module/_testimonial.scss */
+.testimonial__left-box {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 30, /Users/amit/Sites/resume-plus/sass/module/_testimonial.scss */
+.testimonial__heading {
+  margin-bottom: 30px;
+}
+
+/* line 33, /Users/amit/Sites/resume-plus/sass/module/_testimonial.scss */
+.testimonial__text {
+  font-size: 18px;
+  height: 300px;
+  font-weight: 300;
+  display: none;
+}
+
 /* line 1, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .showcase {
   background: url(../img/resumeplus.jpg) no-repeat;
@@ -13160,77 +13193,6 @@ body {
 /* line 12, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
 .showcase div p {
   color: #fff;
-}
-
-/* line 21, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.testimonials {
-  height: 500px;
-  background-color: #f6f6f6;
-  color: #444;
-  position: relative;
-}
-
-/* line 26, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.testimonials blockquote {
-  padding: 40px 80px;
-  font-weight: 300;
-}
-
-/* line 31, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.testimonials .arrow {
-  width: 50px;
-  position: absolute;
-}
-
-/* line 35, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.testimonials .left-arrow {
-  top: 50%;
-}
-
-/* line 38, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.testimonials .right-arrow {
-  right: 20px;
-  top: 50%;
-}
-
-/* line 45, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.footer {
-  height: 200px;
-  background-color: #444;
-}
-
-/* line 55, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.slider {
-  width: 800px;
-  height: 300px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-/* line 61, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.slider p {
-  width: 800px;
-  height: 300px;
-  float: left;
-  display: none;
-}
-
-/* line 70, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.arrow-box {
-  width: 300px;
-  margin: 0 auto;
-}
-
-/* line 74, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.arrow-box .l-arrow {
-  width: 50px;
-  float: left;
-}
-
-/* line 78, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
-.arrow-box .r-arrow {
-  width: 50px;
-  float: right;
 }
 
 /*# sourceMappingURL=../css/app.map */
