@@ -13044,25 +13044,14 @@ body {
   }
 }
 
-/* line 86, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
-.back-to-top {
-  width: 50px;
-  position: fixed;
-  bottom: 2%;
-  right: 5%;
-}
-
-/* line 91, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
-.back-to-top img {
-  width: 50px;
-}
-
 /* line 1, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
 .footer {
+  height: 200px;
+  background-color: #444;
   color: #fff;
 }
 
-/* line 8, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
+/* line 10, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
 .social-links a img {
   width: 30px;
 }
@@ -13173,6 +13162,25 @@ body {
   height: 400px;
   font-weight: 300;
   display: none;
+}
+
+/* line 40, /Users/amit/Sites/resume-plus/sass/module/_testimonial.scss */
+.testimonial__span {
+  font-size: 14px;
+}
+
+/* line 1, /Users/amit/Sites/resume-plus/sass/module/_back-to-top.scss */
+.backToTop {
+  width: 50px;
+  position: fixed;
+  bottom: 2%;
+  right: 5%;
+  cursor: pointer;
+}
+
+/* line 8, /Users/amit/Sites/resume-plus/sass/module/_back-to-top.scss */
+.backToTop img {
+  width: 50px;
 }
 
 /* line 1, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
