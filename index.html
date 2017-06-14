@@ -67,7 +67,7 @@
       <div class="about__box text-center">
         <h1 class="about__heading text-center">About us</h1>
         <p class="about__text text-center"> With years of experience we will handcraft your résumé and documents with specific attention to the skills and requirements you have. We don’t use résumé writing software, or templates rather we gather your information from a range of sources to put together a résumé unique to you, or documents that make you stand out in the crowd.</p><br><br>
-        <button class="btn btn-primary">Know More</button>
+        <button class="btn btn-primary" id="our-team">Our Team</button>
       </div>
     </section>
 
@@ -220,15 +220,55 @@
       </footer>
 
       <div class="aboutModal">
-        <h2 class="text-center">Our Team</h2>
+        <div class="aboutModal__inner">
+           <h2 class="text-center">Our Team</h2>
         <p class="text-center" style="width:650px;font-size:16px;margin:0 auto;">
           Our top résumé writers have actually worked in the industries in which they specialise. We therefore know how to create a résumé that meets the expectations of employers, for example, using the same industry language demonstrates that you are an expert in your field. This attention to detail will ensure your résumé gets the respect it deserves.
         </p>
         <br>
         <br>
-        <p class="text-center" style="width:650px;font-size:16px;margin:0 auto;">
+        <!-- <p class="text-center" style="width:650px;font-size:16px;margin:0 auto;">
           These same writers can also apply their industry experience and knowledge to assist business owners with the production of professional documents such as sales proposals, project plans, RFP responses, and so on. Whilst our writers focus on these documents, business owners can get on with what they need to, i.e. running their business. Check out our Plus services for a summary of additional service offerings.
-         </p>
+         </p> -->
+         <div class="container-fluid">
+           <div class="row" style="margin-bottom:30px;">
+             <div class="col-md-6">
+              <h2 class="text-center" style="margin-top:0;">Peter</h2>
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="img/peter.jpg" alt="peter pic" style="max-width:100%;">
+                </div>
+                <div class="col-md-9">
+                   <p style="font-size: 15px;"> 
+                      Peter has over 40 years of work experience in the IT industry. He has worked within technical and managerial roles, and in the recruitment industry as a consultant. He has successfully placed candidates in a number of industry segments, including IT, finance, accounting, and hospitality.  Peter has worked with many job seekers, from recent graduates to workforce veterans, reviewing their résumés and assisting with directly targeting employer requirements. He sees that the employers’ first impressions of résumés and cover letters essentially act as a first interview with a job seeker. In the cutthroat world of recruitment, job applicants need tailored documents to engage employers and elevate themselves above the competition.
+                    </p>
+                </div>
+              </div>
+             
+             </div>
+             <div class="col-md-6">
+               <div class="row">
+               <h2 class="text-center">Mark</h2>
+                <div class="col-md-3">
+                  <img src="img/peter.jpg" alt="mark pic" style="max-width:100%;">
+                </div>
+                <div class="col-md-9">
+                   <p style="font-size:15px;">
+                      Mike has over 30 years of highly successful experience working in a range of sectors including IT, project management, recruitment and business management. During this time, Mike has seen and reviewed many résumés and instinctively knows what an employer looks for in a Résumé . He believes in many cases, that Résumés and cover letters are the first interview so your documents are always prepared with this thought in mind.
+                    </p>
+                </div>
+              </div>
+             </div>
+           </div>
+         </div>
+         <div class="modal-button text-center" style="margin:0 auto;">
+           <button class="btn btn-warning btn-lg">Get In Touch</button>
+         </div>
+         </div>
+         <div class="aboutModal__close" id="aboutClose">
+           X
+         </div>
+        
       </div>
 
 
@@ -236,6 +276,7 @@
     <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/back-to-top.js"></script>
+    <script src="js/modal.js"></script>
     <script src="js/functions.js"></script>
   </body>
 </html>

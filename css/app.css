@@ -13193,6 +13193,38 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.2);
+  transition: all 0.3s ease-out;
+}
+
+/* line 14, /Users/amit/Sites/resume-plus/sass/module/_modal.scss */
+.aboutModal__visible {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+/* line 20, /Users/amit/Sites/resume-plus/sass/module/_modal.scss */
+.aboutModal__inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 27, /Users/amit/Sites/resume-plus/sass/module/_modal.scss */
+.aboutModal__close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 28px;
+  font-weight: 600;
+  transform: scaleX(1.2);
+  transform-origin: 100% 0;
+  color: #2098D1;
+  cursor: pointer;
 }
 
 /* line 1, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */
