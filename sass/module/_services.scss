@@ -1,22 +1,42 @@
 .services{
-	background-color:#323232;
+	background-color:#2c3e50;
 	color:#fff;
 	// height:550px;
-	
-	&__boxOne{
-		margin-bottom:2.2em;
-	}
-	&__boxTwo{
-		margin-bottom:30px;
+	&__heading{
+
+		margin-bottom:1.5em;
+		@include tablet{
+			margin-bottom:2.2em;
+		}
 	}
 
-	&__heading{
-		margin-bottom:2.2em;
+	&__firstRow{
+		margin-bottom:2.8em;
 	}
 	
+	&__boxOne{
+		
+		@include tablet{
+		background-color: green;
+		margin-bottom:2.2em;
+		}
+		
+	}
+	&__boxTwo{
+		margin-bottom:2.2em;
+	}
+
+	
+	
 	&__subheading{
-		font-size: 22px;
-		margin-bottom:25px;
+		
+		font-size: 1.8em;
+		margin-bottom:0.7em;
+		@include tablet{
+			font-size: 22px;
+			margin-bottom:25px;
+		}
+		
 	}
 	
 

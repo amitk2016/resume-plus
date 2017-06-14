@@ -22,4 +22,13 @@ $(document).ready(function(){
 		// alert('hello');
 	});
 
+	$("#read-more").click(function(){
+		$('body,html').animate({
+			scrollTop:800
+
+		},900);
+		return false;
+		// alert('hello');
+	});
+
 });

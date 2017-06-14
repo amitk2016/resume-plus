@@ -4,15 +4,30 @@
 	font-size:1.8rem;
 	color:$main-color;
 	// background-color:red;
-
+	&__phone{
+		display: none;
+		@include mobile{
+			margin-bottom:35px;
+			display: block;
+		}
+	}
 	p{
-		margin-bottom: 0px;
+		margin:0 auto;
+		@include mobile{
+			float: right;
+		}
 	}
 }
 
 .navbar{
 	// background-color:yellow;
-
+	@include tablet{
+		// background-color: green;
+	}
+	@include desktop{
+		// background-color: red;
+	}
+	
 	ul{
 		display:flex;
 		width:400px;
@@ -41,14 +56,15 @@
 	
 	&__mobilemenu{
 		color:$main-color;
-		font-size:3.5rem;
 		position:absolute;
 		right:10%;
 		top:38%;
 		cursor: pointer;
-		@media (min-width:730px){
-			display: none;
+
+		@include tablet{
+		 display:none;
 		}
+		
 	}
 
 
