@@ -22,6 +22,8 @@ $(document).ready(function(){
 		// alert('hello');
 	});
 
+	// Read more button in the showcase has been handled here----
+	// ---in back to top section as we already have scroll function in this module 
 	$("#read-more").click(function(){
 		$('body,html').animate({
 			scrollTop:800

@@ -1,8 +1,15 @@
 .showcase{
 	background:url(../img/resumeplus.jpg) no-repeat;
 	background-size:cover;
+	// background-position:center center;
 	height:400px;
 	padding:40px 0;
+	@include mobile{
+			background:url(../img/resumeplus.jpg) no-repeat;
+			background-size:cover;
+			height:400px;
+			padding:40px 0;
+		}
 
 	&__text{
 		font-size: 1.5em;

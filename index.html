@@ -13,7 +13,7 @@
         
   </head>
 
-    <header>
+    <header id="top">
       <!-- header contact info for the website -->
         <div class="container-fluid nav-contact"> 
           <div class="nav-contact__phone">
@@ -32,10 +32,11 @@
           <div class="navbar__menu pull-right text-uppercase"><!-- website menu starts here -->
               <div>
                 <ul>
-                  <li><a href="#" class="active">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="#top" class="active">Home</a></li>
+                  <li><a href="#about" class="scroll">About</a></li>
+                  <li><a href="#services" class="scroll">Services</a></li>
+                  <li><a href="#testimonials" class="scroll">Testimonials</a></li>
+                  <li><a href="#contact" class="scroll">Contact</a></li>
                 </ul>
               </div>   
           </div>
@@ -63,7 +64,7 @@
     </div>
 
      <!-- About Section Starts here -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="about__box text-center">
         <h1 class="about__heading text-center">About us</h1>
         <p class="about__text text-center"> With years of experience we will handcraft your résumé and documents with specific attention to the skills and requirements you have. We don’t use résumé writing software, or templates rather we gather your information from a range of sources to put together a résumé unique to you, or documents that make you stand out in the crowd.</p><br><br>
@@ -73,7 +74,7 @@
 
 
      <!-- Services Section Starts Here -->
-     <section class="services">
+     <section class="services" id="services">
        <div class="container services__box">
          <div class="row">
             <h1 class="text-center services__heading">
@@ -114,7 +115,7 @@
      </section>
 
       
-      <div class="slider testimonial container-fluid"> 
+      <div class="slider testimonial container-fluid" id="testimonials"> 
         <div class="testimonial__box text-center row">
           <div class="col-md-3 col-xs-3">
             <div class="testimonial__left-box">  
@@ -173,7 +174,22 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>  
+
+      <section class="contact" id="contact">
+        <div class="contact__box">
+          <div class="contact__box2">
+             <h1 class="text-center">Contact Us</h1>
+              <p class="text-center">
+                Résumé Consultants 
+                <span class="contact__span"> T: + 64 27 229 7777 </span>
+                <span class="contact__span">mike@resumeplus.co.nz </span>
+                <span class="contact__span">peter@resumeplus.co.nz</span>
+                
+              </p>
+          </div>    
+        </div>
+      </section>
      
       
 
@@ -277,6 +293,7 @@
     <script src="js/slider.js"></script>
     <script src="js/back-to-top.js"></script>
     <script src="js/modal.js"></script>
+     <script src="js/nav-scroll.js"></script>
     <script src="js/functions.js"></script>
   </body>
 </html>
