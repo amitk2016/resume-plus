@@ -13068,21 +13068,21 @@ body {
   height: 150px;
   background-color: #222;
   padding: 15px 0;
-  color: #fff;
+  color: #ccc;
 }
 
-/* line 11, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
-.footer__navbar ul li a {
-  color: #fff !important;
-  font-size: 300;
+/* line 7, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
+.footer__navbar-links {
+  font-weight: 300 !important;
+  color: #ccc !important;
 }
 
-/* line 23, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
+/* line 15, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
 .footer__social-links a {
   margin-right: 15px;
 }
 
-/* line 25, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
+/* line 17, /Users/amit/Sites/resume-plus/sass/footer/_footer.scss */
 .footer__social-links a img {
   width: 35px;
 }
@@ -13308,7 +13308,7 @@ body {
 
 /* line 10, /Users/amit/Sites/resume-plus/sass/module/_contact.scss */
 .contact__box {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   height: 350px;
   color: #fff;
 }

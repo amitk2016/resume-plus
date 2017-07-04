@@ -2,19 +2,11 @@
 	height:150px;
 	background-color:#222;
 	padding:15px 0;
-	color:#fff;
+	color:#ccc;
 
-	&__navbar{
-
-		ul{
-			li{
-				a{
-					color:#fff !important;
-					font-size: 300;
-				}
-			}
-		}
-		
+	&__navbar-links{
+		font-weight:300 !important;	
+		color:#ccc !important;	
 	}
 
 
