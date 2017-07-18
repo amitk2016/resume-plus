@@ -1,16 +1,17 @@
 .contact{
-	background:url(../img/contact.jpg) no-repeat;
-	background-size:cover;
+	// background:url(../img/contact-bg-2.png) ;
+	// background-size:cover;
+	background-color:#FEFBF4;
 	height:350px;
+	color:#006A8C;
 
 	&__title{
 		padding-top:2.8rem;
 	}
 	
 	&__box{
-		background-color:rgba(0,0,0,0.4);
 		height:350px;
-		color:#fff;
+		color:#006A8C;
 	}
 	&__box2{
 		height:350px;

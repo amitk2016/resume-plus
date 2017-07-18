@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,11 +12,11 @@
         
   </head>
 
-    <header id="top">
+    <header id="top" class="header">
       <!-- header contact info for the website -->
         <div class="container-fluid nav-contact"> 
           <div class="nav-contact__phone">
-             <p><i class="fa fa-phone" aria-hidden="true"></i> : +64272297777</p>
+             <p><!-- <i class="fa fa-phone" aria-hidden="true"></i> --> Call Us : +64272297777</p>
           </div>
         </div>
       <!-- website navbar box -->
@@ -26,12 +25,15 @@
               <h1><a href="index.html">Resume<span>Plus</span></a></h1>
               <p class="navbar__subheading">Proofreading
           & writing services for businesses and job seekers</p>
-              <i class="fa fa-bars navbar__mobilemenu" aria-hidden="true"></i><!-- Mobile Menu icon -->
+              <div class="navbar__mobilemenu" id="mobileicon">
+                <div class="navbar__mobilemenu__middle"></div>
+              </div>
+              <!-- Mobile Menu icon -->
           </div>
           
-          <div class="navbar__menu pull-right text-uppercase"><!-- website menu starts here -->
+          <div class="navbar__menu pull-right text-uppercase" ><!-- website menu starts here -->
               <div>
-                <ul>
+                <ul class="navbar__ul_list" id="mobilemenu__content">
                   <li><a href="#top" class="active">Home</a></li>
                   <li><a href="#about" class="scroll">About</a></li>
                   <li><a href="#services" class="scroll">Services</a></li>
@@ -84,7 +86,7 @@
              <div class="col-md-4  text-center services__resume services__firstRow">
                 <i class="fa fa-user fa-3x" aria-hidden="true"></i>
                <h2 class="services__subheading">Professional Résumés</h2>
-               <button class="btn btn-primary">View Details</button>
+               <a href="services.html" class="btn btn-primary">View Details</a>
              </div>
              <div class="col-md-4  text-center services__cv services__firstRow">
                <i class="fa fa-clone fa-3x" aria-hidden="true"></i>
@@ -115,12 +117,12 @@
      </section>
 
 
-           <div class="container testimonial" style="padding:35px;" id="testimonials">
+           <div class="container-fluid testimonial" style="padding:35px;" id="testimonials">
             <h1 class="text-center testimonial__heading">
               Testimonials
             </h1>
               <div class="row">
-                  <div class="col-md-12">
+                  <div class="col-sm-12 col-xs-12">
                       <div class="carousel slide" data-ride="carousel" id="quote-carousel">
                           <!-- Carousel Slides / Quotes -->
                           <div class="carousel-inner text-center">
@@ -128,9 +130,9 @@
                               <div class="item active">
                                   <blockquote>
                                       <div class="row">
-                                          <div class="col-sm-8 col-sm-offset-2">
+                                          <div class="col-sm-8 col-sm-offset-2 col-xs-12">
                                               <p>Hi, I have recently used the services of Mike to update my CV and produce some cover letters to target my particular job searches. I was extremely impressed with the results. I have been looking for work for over 2 months and since putting my new Resume/CV out there, I have had 2 interviews in one week, and I have secured a job! I would highly recommend Mike to anyone, whether your CV is outdated or having trouble finding a work, he certainly knows his stuff.</p>
-                                              <small>- Glynis ( Oct-2016 )</small>
+                                              <small>Glynis ( Oct-2016 )</small>
                                           </div>
                                       </div>
                                   </blockquote>
@@ -139,9 +141,9 @@
                               <div class="item">
                                   <blockquote>
                                       <div class="row">
-                                          <div class="col-sm-8 col-sm-offset-2">
+                                          <div class="col-sm-8 col-sm-offset-2 col-xs-12">
                                               <p>I approached Mike to rewrite my IT based resume and present it in a professional format. He understood fully my requirement and presented a resume that I am really happy with. I highly recommend his services should you require a professional IT based resume.</p>
-                                              <small>– Alex ( Jan-2017 )</small>
+                                              <small>Alex ( Jan-2017 )</small>
                                           </div>
                                       </div>
                                   </blockquote>
@@ -150,9 +152,9 @@
                               <div class="item">
                                   <blockquote>
                                       <div class="row">
-                                          <div class="col-sm-8 col-sm-offset-2">
+                                          <div class="col-sm-8 col-sm-offset-2 col-xs-12">
                                               <p>Thanks Mike, I am very impressed with my new CV and found the process of dealing with you first rate. I would recommend to anyone who wants to give their CV a lift to contact you. The service was exactly what I was looking for and completed promptly and professionally.</p>
-                                              <small>- Joe ( Oct-2016 )</small>
+                                              <small>Joe ( Oct-2016 )</small>
                                           </div>
                                       </div>
                                   </blockquote>
@@ -162,9 +164,9 @@
                               <div class="item">
                                   <blockquote>
                                       <div class="row">
-                                          <div class="col-sm-8 col-sm-offset-2">
+                                          <div class="col-sm-8 col-sm-offset-2 col-xs-12">
                                               <p>I just wanted to say thanks Mike, you have done an incredible job in crafting my CV from its original UK version into a very professional CV now appropriate for the NZ marketplace and for also making me look great on paper! This was definitely money well spent and since sending to recruiters I have managed to secure a number of interviews. Thanks for your insights, creativity and professionalism.</p>
-                                              <small>- Kevin ( Oct-2016 )</small>
+                                              <small>Kevin ( Oct-2016 )</small>
                                           </div>
                                       </div>
                                   </blockquote>
@@ -174,9 +176,9 @@
                               <div class="item">
                                   <blockquote>
                                       <div class="row">
-                                          <div class="col-sm-8 col-sm-offset-2">
+                                          <div class="col-sm-8 col-sm-offset-2 col-xs-12">
                                               <p>Mike has done a great job doing the cover letter and resume. - He worked very fast - He really cared about the project and took a lot of time identifying the needs of the job and matching it to the resume and cover letter - He has a lot of experience in HR and the process of doing resume / cover letter - I really recommend</p>
-                                              <small>- Ali ( Feb-2016 )</small>
+                                              <small>Ali ( Feb-2016 )</small>
                                           </div>
                                       </div>
                                   </blockquote>
@@ -192,8 +194,8 @@
                           </ol>
 
                           <!-- Carousel Buttons Next/Prev -->
-                          <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                          <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                          <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left hidden-xs"></i></a>
+                          <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right hidden-xs"></i></a>
                       </div>
                   </div>
               </div>   
@@ -284,11 +286,25 @@
        <footer class="footer"> <!-- Footer Starts here -->
         <div class="container"> <!-- Container inside footer to contain all the content of the footer -->
           <div class="row">
-            <div class="col-md-6 footer__social-links">
-              <a href="#"><img src="img/svg/facebook.svg" alt="facebook link for resumeplus"></a>
-              <a href="#"><img src="img/svg/linkedln.svg" alt="linkedln link for resumeplus"></a>
+            <div class="col-md-5 col-sm-4 col-xs-6 footer__contactsection">
+              <div>
+                <h3 >Contact Us</h3>
+                  <div>
+                      <p>
+                        Résumé Consultants <br>
+                        <span> T: + 64 27 229 7777 </span><br>
+                        <span>mike@resumeplus.co.nz </span><br>
+                        <span>peter@resumeplus.co.nz</span>
+                      </p>
+                  </div>    
+              </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-2 col-sm-4 col-xs-6 footer__social-links">
+            <a href="#"><img src="img/facebook.png" alt="facebook link for resumeplus"></a>
+              <!-- <a href="#"><img src="img/twitter.png" alt="facebook link for resumeplus"></a> -->
+              <a href="#"><img src="img/linkedin.png" alt="linkedln link for resumeplus"></a>
+            </div>
+            <div class="col-md-5 col-sm-4 hidden-xs">
               <div class="navbar">
                   <div class="navbar__menu pull-right text-uppercase"> <!-- Footer Navbar -->
                     <ul class="footer__navbar">
@@ -310,7 +326,7 @@
               
             </div>
           </div>
-          <div class="row text-center text-muted">
+          <div class="row text-center footer__copyright">
             © 2016 by MIKE BAKER LTD.
           </div>
         </div>
@@ -376,7 +392,9 @@
     <script src="js/slider.js"></script>
     <script src="js/back-to-top.js"></script>
     <script src="js/modal.js"></script>
-     <script src="js/nav-scroll.js"></script>
+    <script src="js/nav-scroll.js"></script>
+    <script src="js/mobilemenu.js"></script>
+    <script src="js/services-slider.js"></script>
     <script src="js/functions.js"></script>
   </body>
 </html>

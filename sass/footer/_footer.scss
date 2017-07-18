@@ -1,25 +1,48 @@
 .footer{
-	height:150px;
-	background-color:#222;
-	padding:15px 0;
-	color:#ccc;
+	background-color:$main-color;
+	padding:25px 0;
+	color:#AACCFF;
 
 	&__navbar-links{
-		font-weight:300 !important;	
-		color:#ccc !important;	
+		font-weight:400 !important;	
+		color:#AACCFF !important;
 	}
+	
+	&__navbar{
+		display:flex;
+		justify-content: space-between;
 
+		li{
+			list-style: none;
+			margin-left:20px;
+		}
+	}
 
 	&__social-links{
 
 		a{
 			margin-right: 15px;
+			color:white;
 			img{
-				width:35px;
+				width:45px;
 			}
 		}
 
 		
+	}
+
+	&__contactsection{
+		
+		@include mobile{
+			margin-bottom:25px;
+		}
+	}
+
+	&__copyright{
+		padding-top:25px;
+		@include mobile{
+			padding-top:0px;
+		}	
 	}
 	
 }
