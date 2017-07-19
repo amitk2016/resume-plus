@@ -3,7 +3,7 @@ $(document).ready(function(){
 		var wScroll = $(this).scrollTop();
 		console.log(wScroll);
 
-		var showScrollButton = 115;
+		var showScrollButton = 135;
 
 		if ( wScroll> showScrollButton) {
 			$(".backToTop").fadeIn();

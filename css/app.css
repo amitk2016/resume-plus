@@ -8095,7 +8095,7 @@ button.close {
 /* line 51, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-content {
   position: relative;
-  background-color: #fff;
+  background-color: #FEFBF4;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
@@ -8124,14 +8124,14 @@ button.close {
 
 /* line 74, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-backdrop.in {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
 
 /* line 79, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header {
-  padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
 }
 
 /* line 14, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
@@ -8159,14 +8159,14 @@ button.close {
 /* line 97, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-body {
   position: relative;
-  padding: 15px;
+  padding: 35px;
 }
 
 /* line 103, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer {
-  padding: 15px;
+  padding: 35px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid transparent;
 }
 
 /* line 14, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
@@ -8225,7 +8225,7 @@ button.close {
 @media (min-width: 992px) {
   /* line 149, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg {
-    width: 900px;
+    width: 1000px;
   }
 }
 
@@ -8660,7 +8660,7 @@ button.close {
   width: 15%;
   opacity: 0.5;
   filter: alpha(opacity=50);
-  font-size: 20px;
+  font-size: 25px;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
@@ -8761,7 +8761,7 @@ button.close {
   height: 10px;
   margin: 1px;
   text-indent: -999px;
-  border: 1px solid #fff;
+  border: 1px solid #2098D1;
   border-radius: 10px;
   cursor: pointer;
   background-color: #000 \9;
@@ -8773,7 +8773,7 @@ button.close {
   margin: 0;
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #2098D1;
 }
 
 /* line 218, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
@@ -8801,20 +8801,20 @@ button.close {
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
   .carousel-control .icon-next {
-    width: 30px;
-    height: 30px;
-    margin-top: -10px;
-    font-size: 30px;
+    width: 37.5px;
+    height: 37.5px;
+    margin-top: -12.5px;
+    font-size: 37.5px;
   }
   /* line 249, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
-    margin-left: -10px;
+    margin-left: -12.5px;
   }
   /* line 253, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next {
-    margin-right: -10px;
+    margin-right: -12.5px;
   }
   /* line 260, /Users/amit/Sites/resume-plus/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-caption {
@@ -12964,8 +12964,14 @@ body {
 /* line 7, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .nav-contact__phone {
   display: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 500;
+}
+
+/* line 20, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+.nav-contact__phone a i {
+  font-size: 16px;
+  color: #2098D1;
 }
 
 @media all and (min-width: 550px) {
@@ -12976,31 +12982,31 @@ body {
   }
 }
 
-/* line 16, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 31, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .nav-contact p {
   margin: 0 auto;
 }
 
 @media all and (min-width: 550px) {
-  /* line 16, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+  /* line 31, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
   .nav-contact p {
     float: right;
   }
 }
 
-/* line 24, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 39, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .header {
   padding: 15px 7px;
 }
 
 @media all and (min-width: 550px) {
-  /* line 24, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+  /* line 39, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
   .header {
     padding: 0px;
   }
 }
 
-/* line 44, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 59, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__ul_list {
   transition: all 0.3s ease-out;
   position: relative;
@@ -13013,7 +13019,7 @@ body {
 }
 
 @media all and (min-width: 730px) {
-  /* line 44, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+  /* line 59, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
   .navbar__ul_list {
     display: flex;
     width: 550px;
@@ -13027,7 +13033,7 @@ body {
   }
 }
 
-/* line 64, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 79, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__ul_list--is-visible {
   z-index: 1;
   transform: scale(1);
@@ -13035,7 +13041,7 @@ body {
   width: 100vw;
 }
 
-/* line 72, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 87, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__ul_list li {
   list-style: none;
   margin-bottom: 22px;
@@ -13043,13 +13049,13 @@ body {
 }
 
 @media all and (min-width: 730px) {
-  /* line 72, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+  /* line 87, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
   .navbar__ul_list li {
     margin-bottom: 0px;
   }
 }
 
-/* line 80, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 95, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__ul_list li a {
   color: white;
   font-weight: 600;
@@ -13059,26 +13065,26 @@ body {
 }
 
 @media all and (min-width: 730px) {
-  /* line 80, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+  /* line 95, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
   .navbar__ul_list li a {
     color: #2098D1;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     background-color: white;
   }
 }
 
-/* line 93, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 108, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__ul_list li a .active {
   text-decoration: underline;
 }
 
-/* line 100, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 115, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__logo-container {
   position: relative;
 }
 
-/* line 120, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 135, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__mobilemenu {
   width: 22px;
   height: 20px;
@@ -13087,7 +13093,7 @@ body {
   right: 15px;
 }
 
-/* line 128, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 143, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__mobilemenu::before {
   content: "";
   position: absolute;
@@ -13100,7 +13106,7 @@ body {
   transition: all 0.3s ease-out;
 }
 
-/* line 140, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 155, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__mobilemenu__middle {
   position: absolute;
   top: 8px;
@@ -13112,7 +13118,7 @@ body {
   transform-origin: 0 50%;
 }
 
-/* line 151, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 166, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__mobilemenu::after {
   content: "";
   position: absolute;
@@ -13126,46 +13132,46 @@ body {
 }
 
 @media all and (min-width: 730px) {
-  /* line 120, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+  /* line 135, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
   .navbar__mobilemenu {
     display: none;
   }
 }
 
-/* line 169, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 184, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__mobilemenu--close-X::before {
   transform: rotate(45deg) scaleX(1.25);
 }
 
-/* line 172, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 187, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__mobilemenu--close-X .navbar__mobilemenu__middle {
   opacity: 0;
   transform: scaleX(0);
 }
 
-/* line 176, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 191, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__mobilemenu--close-X::after {
   transform: rotate(-45deg) scaleX(1.25) translateY(1.5px);
 }
 
-/* line 186, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 201, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__logo h1 {
   margin: 0px;
   font-size: 35px;
   font-weight: 700;
 }
 
-/* line 191, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 206, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__logo h1 a {
   text-decoration: none;
 }
 
-/* line 194, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 209, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__logo h1 span {
   font-weight: 300;
 }
 
-/* line 200, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
+/* line 215, /Users/amit/Sites/resume-plus/sass/header/_header.scss */
 .navbar__subheading {
   width: 210px;
   margin-bottom: 0;
@@ -13310,25 +13316,32 @@ body {
 }
 
 @media all and (min-width: 730px) {
-  /* line 17, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
+  /* line 13, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
+  .services__firstRow {
+    margin-bottom: 3.4em;
+  }
+}
+
+@media all and (min-width: 730px) {
+  /* line 20, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
   .services__boxOne {
     margin-bottom: 2.2em;
   }
 }
 
-/* line 24, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
+/* line 27, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
 .services__boxTwo {
   margin-bottom: 2.2em;
 }
 
-/* line 30, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
+/* line 33, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
 .services__subheading {
   font-size: 1.8em;
   margin-bottom: 0.7em;
 }
 
 @media all and (min-width: 730px) {
-  /* line 30, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
+  /* line 33, /Users/amit/Sites/resume-plus/sass/module/_services.scss */
   .services__subheading {
     font-size: 22px;
     margin-bottom: 25px;
@@ -13435,36 +13448,33 @@ body {
 /* line 1, /Users/amit/Sites/resume-plus/sass/module/_contact.scss */
 .contact {
   background-color: #FEFBF4;
-  height: 350px;
   color: #006A8C;
+  padding: 4.6rem 1.4rem;
 }
 
 /* line 8, /Users/amit/Sites/resume-plus/sass/module/_contact.scss */
 .contact__title {
-  padding-top: 2.8rem;
+  margin-top: -1rem;
+  margin-bottom: 2.8rem;
 }
 
-/* line 12, /Users/amit/Sites/resume-plus/sass/module/_contact.scss */
+/* line 13, /Users/amit/Sites/resume-plus/sass/module/_contact.scss */
 .contact__box {
-  height: 350px;
   color: #006A8C;
-}
-
-/* line 16, /Users/amit/Sites/resume-plus/sass/module/_contact.scss */
-.contact__box2 {
-  height: 350px;
-  transform: translateY(20%);
 }
 
 /* line 21, /Users/amit/Sites/resume-plus/sass/module/_contact.scss */
 .contact__text {
   font-size: 1.8rem;
   font-weight: 100;
+  margin-bottom: 2.8rem;
 }
 
-/* line 25, /Users/amit/Sites/resume-plus/sass/module/_contact.scss */
-.contact__span {
-  display: block;
+@media all and (min-width: 550px) {
+  /* line 26, /Users/amit/Sites/resume-plus/sass/module/_contact.scss */
+  .contact__span {
+    display: block;
+  }
 }
 
 /* line 1, /Users/amit/Sites/resume-plus/sass/showcase/_showcase.scss */

@@ -12,6 +12,9 @@
 
 	&__firstRow{
 		margin-bottom:2.8em;
+		@include tablet{
+			margin-bottom:3.4em;
+		}
 	}
 	
 	&__boxOne{

@@ -6,8 +6,23 @@
 	// background-color:red;
 	&__phone{
 		display: none;
-		font-size:2rem;
+		font-size:1.6rem;
 		font-weight:500;
+
+		a{
+			// text-align: center;
+			// float: left;
+			// width:30px;
+			// height:30px;
+			// border: 1px solid $main-color;
+			// border-radius: 100%;
+
+			i{
+				font-size:16px;
+			    // line-height:22px;
+				color: $main-color;
+			}
+		}
 		@include mobile{
 			margin-bottom:35px;
 			display: block;
@@ -86,7 +101,7 @@
 				@include tablet{
 					color:$main-color;
 					font-weight:400;
-				    font-size: 1.6rem;
+				    font-size: 1.4rem;
 				    background-color:white;
 				}
 

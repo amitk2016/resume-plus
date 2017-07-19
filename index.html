@@ -16,7 +16,8 @@
       <!-- header contact info for the website -->
         <div class="container-fluid nav-contact"> 
           <div class="nav-contact__phone">
-             <p><!-- <i class="fa fa-phone" aria-hidden="true"></i> --> Call Us : +64272297777</p>
+             <p><a href="#"><i class="fa fa-phone fa-lg"></i></a>  : +64272297777</p><br>
+             <!-- <p><a href="#"><i class="fa fa-envelope fa-lg"></i></a>  : mike@resumeplus.co.nz</p> -->
           </div>
         </div>
       <!-- website navbar box -->
@@ -38,7 +39,7 @@
                   <li><a href="#about" class="scroll">About</a></li>
                   <li><a href="#services" class="scroll">Services</a></li>
                   <li><a href="#testimonials" class="scroll">Testimonials</a></li>
-                  <li><a href="#contact" class="scroll">Contact</a></li>
+                  <li><a href="#contact" class="scroll">Pricing</a></li>
                 </ul>
               </div>   
           </div>
@@ -70,15 +71,58 @@
       <div class="about__box text-center">
         <h1 class="about__heading text-center">About us</h1>
         <p class="about__text text-center"> With years of experience we will handcraft your résumé and documents with specific attention to the skills and requirements you have. We don’t use résumé writing software, or templates rather we gather your information from a range of sources to put together a résumé unique to you, or documents that make you stand out in the crowd.</p><br><br>
-        <button class="btn btn-primary" id="our-team">Our Team</button>
+        <button class="btn btn-primary" type="button"  data-toggle="modal" data-target="#myModalTeam">Our Team</button>
       </div>
     </section>
+
+    <!-- Services Modal -->
+          <div class="modal fade" id="myModalTeam" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content" style="color:#66625B">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:46px;">&times;</span></button>
+                  <h2 class="modal-title text-center" id="myModalLabel" style="margin-bottom:25px;">Our Team</h2>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <p style="font-size:16px;font-weight: 300;line-height:1.6;">Our team of  writers have accumulated over 70 years of experience working with candidates across many sectors.The documents we create will be unique to you, will help set you apart from your competition and will give you the leading edge you deserve.</p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <h3 class="text-center" style="margin-bottom:18px;">
+                        Peter
+                      </h3>
+                      <p style="font-size:15px;font-weight: 300;line-height:1.6;">Peter has over 40 years of work experience in the IT industry. He has worked within technical and managerial roles, and in the recruitment industry as a consultant. He has successfully placed candidates in a number of industry segments, including IT, finance, accounting, and hospitality.  Peter has worked with many job seekers, from recent graduates to workforce veterans, reviewing their résumés and assisting with directly targeting employer requirements. He sees that the employers’ first impressions of résumés and cover letters essentially act as a first interview with a job seeker. In the cutthroat world of recruitment, job applicants need tailored documents to engage employers and elevate themselves above the competition.</p>
+                    </div>
+                    <div class="col-sm-6">
+                      <h3 class="text-center" style="margin-bottom:18px;">
+                        Mike
+                      </h3>
+                      <p style="font-size:15px;font-weight: 300;line-height:1.6;">Mike has over 30 years of highly successful experience working in a range of sectors including IT, project management, recruitment and business management. During this time, Mike has seen and reviewed many résumés and instinctively knows what an employer looks for in a Résumé . He believes in many cases, that Résumés and cover letters are the first interview so your documents are always prepared with this thought in mind.</p>
+                    </div>
+                  </div>  
+                </div>
+                <div class="modal-footer">
+                  <div class="row">
+                    <div class="col-sm-2 col-sm-offset-5">
+                      <button type="button" class="btn btn-warning btn-block" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+
 
 
      <!-- Services Section Starts Here -->
      <section class="services" id="services">
        <div class="container services__box">
-         <div class="row">
+         <div class="row services__firstRow">
             <h1 class="text-center services__heading">
               Services
             </h1>
@@ -86,17 +130,17 @@
              <div class="col-md-4  text-center services__resume services__firstRow">
                 <i class="fa fa-user fa-3x" aria-hidden="true"></i>
                <h2 class="services__subheading">Professional Résumés</h2>
-               <a href="services.html" class="btn btn-primary">View Details</a>
+               <button class="btn btn-primary" type="button"  data-toggle="modal" data-target="#myModal">Read More</button>
              </div>
              <div class="col-md-4  text-center services__cv services__firstRow">
                <i class="fa fa-clone fa-3x" aria-hidden="true"></i>
                <h2 class="services__subheading">Cover letters</h2>
-               <button class="btn btn-primary">View Details</button>
+               <button class="btn btn-primary" type="button"  data-toggle="modal" data-target="#myModal">Read More</button>
              </div>
              <div class="col-md-4 text-center services__linkedln services__firstRow">
                 <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
                <h2 class="services__subheading">LinkedIn profiles</h2>
-               <button class="btn btn-primary">View Details</button>
+               <button class="btn btn-primary" type="button"  data-toggle="modal" data-target="#myModal">Read More</button>
              </div>
           </div>
          </div>
@@ -104,17 +148,139 @@
            <div class="col-md-4 col-md-offset-2 text-center services__firstRow">
              <i class="fa fa-check fa-3x" aria-hidden="true"></i>
              <h2 class="services__subheading">Competency criteria</h2>
-             <button class="btn btn-primary">View Details</button>
+             <button class="btn btn-primary" type="button"  data-toggle="modal" data-target="#myModal">Read More</button>
            </div>
            <div class="col-md-4 text-center services__firstRow">
              <i class="fa fa-plus-square fa-3x" aria-hidden="true"></i>
              <h2 class="services__subheading">Plus</h2>
-             <button class="btn btn-primary">View Details</button>
+             <button class="btn btn-primary" type="button"  data-toggle="modal" data-target="#myModalPlus">Read More</button>
            </div>
          </div>
          
        </div>
      </section>
+
+          <!-- Services Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content" style="color:#66625B">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:46px;">&times;</span></button>
+                  <h2 class="modal-title text-center" id="myModalLabel" style="margin-bottom:25px;">Services</h2>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <p style="font-size:16px;font-weight: 300;line-height:1.6;">Getting the job of your dreams is not easy in this competitive job market. HR professionals agree that candidates who invest in marketing themselves have the most success. The most important career investment you can make is hiring a professional résumé writing service. Our professional résumé writers know how to make your résumé stand out because we are experienced job counsellors and recruiters.</p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="modal-body">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h3 class="text-center" style="margin-bottom:18px;">
+                      Professional Resumes
+                    </h3>
+                    <p style="font-size:15px;font-weight: 300;line-height:1.6;">A professional résumé is only as good as the information you provide. If you don't have an existing résumé we will  email you a questionnaire prompting you to provide the  career information  needed to create your résumé.</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <h3 class="text-center" style="margin-bottom:18px;">
+                      Cover Letters
+                    </h3>
+                    <p style="font-size:15px;font-weight: 300;line-height:1.6;">It is important to note that many employers will require a cover letter with the  job application, and a well written cover letter should get you one step closer to an interview. Our  customised  cover letters will   highlight your skills and qualifications and how these relate to the new role/company. We can tailor your cover letter for a specific job, or write a general cover letter that you can adjust to suit different positions.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h3 class="text-center" style="margin-bottom:18px;">
+                      Linkedin Profiles
+                    </h3>
+                    <p style="font-size:15px;font-weight: 300;line-height:1.6;">LinkedIn is the world’s largest professional network with over 380 million members worldwide.Your profile  needs to have  a competitive edge over other candidates, and help you take full advantage of all the incredible features LinkedIn has to offer. We will help you  develop a professional LinkedIn profile tailored to your industry, including work history and achievements.</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <h3 class="text-center" style="margin-bottom:18px;">
+                      Competency Criteria
+                    </h3>
+                    <p style="font-size:15px;font-weight: 300;line-height:1.6;">Almost all roles look for specific skills and competencies that are relevant to the responsibilities of the role.  You can enhance your prospects of success if you have a document that specifically addresses these. Based on information you provide, our writers can develop this document outlining your background - supporting it with examples from your work history. If the role you are applying for has these specific requirements then seriously consider using this additional service.</p>
+                  </div>
+                </div>
+                   
+                </div>
+                <div class="modal-footer">
+                  <div class="row">
+                    <div class="col-sm-2 col-sm-offset-5">
+                      <button type="button" class="btn btn-warning btn-block" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+
+          <!-- Services PLus Modal -->
+          <div class="modal fade" id="myModalPlus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content" style="color:#66625B">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:46px;">&times;</span></button>
+                  <h2 class="modal-title text-center" id="myModalLabel" style="margin-bottom:25px;">Plus</h2>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <p style="font-size:16px;font-weight: 300;line-height:1.6;">If you are a business owner who needs to engage with clients or you spend more time than you should preparing those RFI’s, sales proposals, project plans and so on then seriously consider using our services to assist you. Our professional writers can help you produce those winning documents.</p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="modal-body">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h3 class="text-center" style="margin-bottom:18px;font-size:20px;">
+                      RFI / RFP / RFQ / RFT RESPONSES
+                    </h3>
+                    <p style="font-size:15px;font-weight: 300;line-height:1.6;">Anyone in business knows how time consuming and labour intensive it can be responding to requests for Information, proposal, quotation, tender.  We can help you to demonstrate your ability to fulfil requirements of proposals/tenders with well-structured responses that are clear and concise with content designed for your target audience. Let us take away the majority of time consuming responses whilst you focus on running your business.</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <h3 class="text-center" style="margin-bottom:18px;font-size:20px;">
+                      WEBSITE CONTENT
+                    </h3>
+                    <p style="font-size:15px;font-weight: 300;line-height:1.6;">First impressions are everything in the online world. It is vital that you structure your website content to fit your target audience. We will help you to present the best first impression to web viewers with thoughtfully written content that immediately engages potential clients and encourages further exploration and contact.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h3 class="text-center" style="margin-bottom:18px;font-size:20px;">
+                      SALES PROPOSALS
+                    </h3>
+                    <p style="font-size:15px;font-weight: 300;line-height:1.6;">Impress existing clients and prospects with carefully thought out proposals for products, services and projects. We can help you produce clear, concise, and well-presented documents. Whether technical or business people, we will ensure that your proposal is written for your target audience.</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <h3 class="text-center" style="margin-bottom:18px;font-size:20px;">
+                      PROJECT PROPOSALS
+                    </h3>
+                    <p style="font-size:15px;font-weight: 300;line-height:1.6;">Impress and inspire project sponsors (business owners, investors) to back your project by presenting carefully written proposals. With a focus on clarity, we can help you to create clear and concise project proposals. Whether technical or business people, we will ensure that your proposal is written for your target audience</p>
+                  </div>
+                </div>
+                <div class="row" style="margin-top:18px;">
+                  <div class="col-sm-6 col-sm-offset-3">
+                    <h3 class="text-center" style="margin-bottom:18px;font-size:20px;">
+                      PROJECT PLANS / CHARTERS
+                    </h3>
+                    <p style="font-size:15px;font-weight: 300;line-height:1.6;">Give clients confidence in your ability to execute and deliver successful projects. We can help you produce documents that can be understood by all parties with clear objectives, responsibilities timelines, budgets, and contingencies.</p>
+                  </div>
+                </div>
+                   
+                </div>
+                <div class="modal-footer">
+                  <div class="row">
+                    <div class="col-sm-2 col-sm-offset-5">
+                      <button type="button" class="btn btn-warning btn-block" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
 
 
            <div class="container-fluid testimonial" style="padding:35px;" id="testimonials">
@@ -202,81 +368,81 @@
           </div>
 
 
-      
-<!--       <div class="slider testimonial container-fluid" id="testimonials"> 
-        <div class="testimonial__box text-center row">
-          <div class="col-md-3 col-xs-3">
-            <div class="testimonial__left-box">  
-              <a href="#" id="left-button"><img class="testimonial__left-arrow testimonial__arrows" src="img/left-arrow.png" alt="left-arrow button  for sliding the testimonials"></a>
-            </div>
-          </div>
-          <div class="col-md-6 col-xs-6">
-            <h1 class="text-center testimonial__heading">
-              Testimonials
-            </h1>
-            <p id="1" class="testimonial__text">
-               Hi, I have recently used the services of Mike to update my CV and produce some cover letters to target my particular job searches. I was extremely impressed with the results. I have been looking for work for over 2 months and since putting my new Resume/CV out there, I have had 2 interviews in one week, and I have secured a job! I would highly recommend Mike to anyone, whether your CV is outdated or having trouble finding a work, he certainly knows his stuff.
-                Thanks Mike :)
-                 <br>
-                 <br>
-                <span class="testimonial__span pull-right">
-                   - Glynis ( Oct-2016 )
-                </span>
-            </p>
-            <p id="2" class="testimonial__text">
-               "I approached Mike to rewrite my IT based resume and present it in a professional format. He understood fully my requirement and presented a resume that I am really happy with. I highly recommend his services should you require a professional IT based resume".
-               <br>
-                <br> 
-               <span class="testimonial__span pull-right">
-                 – Alex ( Jan-2017 )
-               </span>
-            </p>
-            <p id="3" class="testimonial__text">
-              "Thanks Mike, I am very impressed with my new CV and found the process of dealing with you first rate. I would recommend to anyone who wants to give their CV a lift to contact you. The service was exactly what I was looking for and completed promptly and professionally" 
-              <br>
-                <br> 
-               <span class="testimonial__span pull-right">
-                 - Joe ( Oct-2016 )
-               </span>
-            </p>
-            <p id="4" class="testimonial__text">
-              "I just wanted to say thanks Mike, you have done an incredible job in crafting my CV from its original UK version into a very professional CV now appropriate for the NZ marketplace and for also making me look great on paper! This was definitely money well spent and since sending to recruiters I have managed to secure a number of interviews. Thanks for your insights, creativity and professionalism."
-              <br>
-              <br> 
-               <span class="testimonial__span pull-right">
-                 - Kevin ( Oct-2016 )
-               </span>
-            </p>
-            <p id="5" class="testimonial__text">
-              "Mike has done a great job doing the cover letter and resume. - He worked very fast - He really cared about the project and took a lot of time identifying the needs of the job and matching it to the resume and cover letter - He has a lot of experience in HR and the process of doing resume / cover letter - I really recommend"
-               <br>
-              <br> 
-               <span class="testimonial__span pull-right">
-                 - Ali ( Feb-2016 )
-               </span>
-            </p>
-          </div>
-          <div class="col-md-3 col-xs-3">
-            <div class="testimonial__left-box">
-              <a href="#" id="right-button"><img class="testimonial__right-arrow testimonial__arrows" src="img/right-arrow.png" alt="left-arrow button for sliding the testimonials"></a>
-            </div>
-          </div>
-        </div>
-      </div>  --> 
-
       <section class="contact" id="contact">
         <div class="contact__box">
-        <h1 class="text-center contact__title">Contact Us</h1>
+        <h1 class="text-center contact__title">Pricing & Payment</h1>
           <div class="contact__box2">
-              <p class="text-center contact__text">
-                Résumé Consultants 
-                <span class="contact__span"> T: + 64 27 229 7777 </span>
-                <span class="contact__span">mike@resumeplus.co.nz </span>
-                <span class="contact__span">peter@resumeplus.co.nz</span>
-              </p>
+              <p class="contact__text text-center">We endeavour to keep our fee structure simple and easy to understand. <span class="contact__span">The fees shown here are guidelines only and a final  fee will be determined </span>once we have agreed on the services required. </p>
+              <div class="row">
+                <div class="col-sm-4 col-sm-offset-4">
+                  <button class="btn btn-warning btn-lg btn-block  type="button"  data-toggle="modal" data-target="#myModalPricing"">Click here to see the prices</button>
+                </div>
+              </div>  
           </div>    
         </div>
       </section>
+
+                <!-- Pricing Modal -->
+          <div class="modal fade" id="myModalPricing" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content" style="color:#66625B">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:46px;">&times;</span></button>
+                  <h2 class="modal-title text-center" id="myModalLabel" style="margin-bottom:25px;">Pricing & Payment</h2>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <p style="font-size:16px;font-weight: 300;line-height:1.6;">We endeavour to keep our fee structure simple and easy to understand. The fees shown here are guidelines only and a final  fee will be determined once we have agreed on the services required. </p>
+
+                      <p style="font-size:16px;font-weight: 300;line-height:1.6;">Payment is invoice based. We will submit an invoice to you for the services and fee agreed on. We require a 50% down payment and the remainder on completion of the work to your satisfaction.</p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="modal-body">
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <h3 class="text-center" style="margin-bottom:18px;font-size:20px;">
+                      Fee Structure
+                    </h3>
+                    <p style="font-size:15px;font-weight: 300;line-height:1.6;">
+                      <pre style="font-size:15px;font-weight: 300;line-height:1.6;">
+- Initial consultation              FREE
+- Résumés                           FROM $120
+- Cover letters                     FROM $40
+- LinkedIn profiles                 $40
+- Competency criteria               $50
+- Fast turnaround                   + $20 per doc
+- Plus                              Prices for Plus documents will be by negotiation
+                      </pre>
+                       
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <h3 class="text-center" style="margin-bottom:18px;font-size:20px;">
+                      TIMES and STRUCTURE
+                    </h3>
+                    <p style="font-size:15px;font-weight: 300;line-height:1.6;">
+                      Our pricing and service times are consistent with the amount of writing and preparation required to accurately and informatively ‘tell your story’ in your job application documents.We aim to deliver a first draft to you within   3 – 5 working days.  This may be quicker but is very dependent on the quality of information you provide us when you commit to a service.  However, we can usually meet faster deadlines when required. If you need to submit a job application in a shorter period of time, please let us know at your earliest convenience so we can do the best job for you.  Depending on our volume at any one time, a quicker service may incur an additional service fee.
+                    </p>
+                  </div>
+                </div>
+              
+               
+                   
+                </div>
+                <div class="modal-footer">
+                  <div class="row">
+                    <div class="col-sm-2 col-sm-offset-5">
+                      <button type="button" class="btn btn-warning btn-block" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
 
 
 
